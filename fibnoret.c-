@@ -1,0 +1,12 @@
+
+int fib(int n)
+{
+    if (n <= 1) return;
+    return fib(n - 1) + fib(n - 2);
+}
+ 
+void main(void)
+{
+    int n;
+    n = fib(9);
+}

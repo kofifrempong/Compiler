@@ -1,0 +1,49 @@
+/* Count substrings using tree to sort */
+
+int charAt(int i, int c) {
+     return c = i / 10;
+}
+
+void remove(int j, int c){
+}
+void put(int j, int c){
+}
+
+int count(int n) {
+
+int counter;
+int border;
+int i;
+int newborder; 
+  int c;
+counter = 0;
+border = 0;
+
+    while (i < n) {
+      
+        c = charAt(i, c);
+
+        if (i >= 1) {
+         int j;
+         newborder = c + 1;
+         j = border + 1;
+
+        while (j <= newborder) {
+        
+        }
+
+        border = newborder;
+        }
+    }
+
+    put(i, c);
+    counter = counter + i - border;
+
+
+return counter;
+}
+
+void main(void) {
+  int p;
+p = count(10);
+}
